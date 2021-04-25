@@ -151,7 +151,7 @@ install_postgres () {
 
     if is_mac;
     then
-        brew cask install postgres --appdir=/Applications
+        brew install postgres --appdir=/Applications
 
         export PATH=/Applications/Postgres.app/Contents/Versions/*/bin:$PATH
 
